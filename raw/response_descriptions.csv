@@ -1,0 +1,162 @@
+TOTALSURVEYS,Count of total surveys completed,N/A,Count,This is a count of all surveys completed
+1_YEARSHOMELESS,Can I ask how long you have been homeless?,Estimate provided in days/months/years,Calculated average (in years),
+1_DONTKNOW,Can I ask how long you have been homeless?,Don’t know,Count,
+1_NA,Can I ask how long you have been homeless?,Refused/No answer,Count,
+2A_YES,Have you lived in Toronto for more than one year? (i.e. since at least April 2012),Yes,Count,
+2A_NO,Have you lived in Toronto for more than one year? (i.e. since at least April 2012),No,Count,
+2A_NA,Have you lived in Toronto for more than one year? (i.e. since at least April 2012),Refused/No answer,Count,
+2B_ONTARIO,"b) If no, where did you live before moving to Toronto?",Elsewhere in Ontario ,Count,
+2B_CANADA,"b) If no, where did you live before moving to Toronto?",Another Province ,Count,
+2B_WORLD,"b) If no, where did you live before moving to Toronto?",Out of Country ,Count,
+3_AGE,Can I ask how old you are?,Estimate provided in years,Calculated average (in years),
+4_MALE,Would you identify as:,Male,Count,
+4_FEMALE,Would you identify as:,Female,Count,
+4_TRANS,Would you identify as:,Transgender/Transsexual,Count,
+4_OTHER,Would you identify as:,Other,Count,
+4_NA,Would you identify as:,Refused/No Answer,Count,
+5_YES,"Do you identify as part of the Gay, Lesbian, Queer, Two-Spirited or Bisexual community:",Yes,Count,
+5_NO,"Do you identify as part of the Gay, Lesbian, Queer, Two-Spirited or Bisexual community:",No,Count,
+5_NA,"Do you identify as part of the Gay, Lesbian, Queer, Two-Spirited or Bisexual community:",Refused/No answer,Count,
+6A_YES,Would you identify yourself as being Aboriginal?,Yes,Count,
+6A_NO,Would you identify yourself as being Aboriginal?,No,Count,
+6A_NA,Would you identify yourself as being Aboriginal?,Refused/No answer,Count,
+6B_INUIT,"If yes, do you identify as: ",Inuit,Count,
+6B_FIRSTNATION,"If yes, do you identify as: ",First Nation,Count,
+6B_METIS,"If yes, do you identify as: ",Metis,Count,
+6B_OTHER,"If yes, do you identify as: ",Other,Count,
+6B_NA,"If yes, do you identify as: ",Refused/No Answer,Count,
+7_YES,Have you ever had any military service in the Canadian Forces?,Yes,Count,
+7_NO,Have you ever had any military service in the Canadian Forces?,No,Count,
+7_NA,Have you ever had any military service in the Canadian Forces?,Refused/No answer,Count,
+8A_YES,Do you want to get into permanent housing?,Yes,Count,
+8A_NO,Do you want to get into permanent housing?,No,Count,
+8A_NA,Do you want to get into permanent housing?,Refused/No answer,Count,
+8A_DONTKNOW,Do you want to get into permanent housing?,Don’t know,Count,
+9A_YES,Are you on a waiting list for housing?,Yes,Count,
+9A_NO,Are you on a waiting list for housing?,No,Count,
+9A_NA,Are you on a waiting list for housing?,Refused/No answer,Count,
+9A_DONTKNOW,Are you on a waiting list for housing?,Don’t know,Count,
+9B_CWL,"If yes, what waiting list(s) are you on?","Centralized social housing waiting list (i.e. Housing Connections, includes TCHC)",Count,
+9B_CASH,"If yes, what waiting list(s) are you on?","Supportive Housing (i.e. Centralized Access to Supportive Housing – ""CASH"")",Count,
+9B_OUTSIDETORONTO,"If yes, what waiting list(s) are you on?",Social housing outside of Toronto,Count,
+9B_OTHER,"If yes, what waiting list(s) are you on?",Other,Count,
+9B_NA,"If yes, what waiting list(s) are you on?",Refused/No answer,Count,
+9B_DONTKNOW,"If yes, what waiting list(s) are you on?",Don’t know,Count,
+10A_YES,Have you slept outside for one or more nights in the past 6 months?,Yes,Count,
+10A_NO,Have you slept outside for one or more nights in the past 6 months?,No,Count,
+10A_NA,Have you slept outside for one or more nights in the past 6 months?,Refused/No answer,Count,
+10B_RAVINE,Please describe the place you will stay tonight: ,Ravine,Count,This question was only included in the Outdoor survey
+10B_PARK,Please describe the place you will stay tonight: ,Park,Count,This question was only included in the Outdoor survey
+10B_SIDEWALK,Please describe the place you will stay tonight: ,Sidewalk,Count,This question was only included in the Outdoor survey
+10B_DOORWAY,Please describe the place you will stay tonight: ,Doorway,Count,This question was only included in the Outdoor survey
+10B_STAIRWELL,Please describe the place you will stay tonight: ,Stairwell,Count,This question was only included in the Outdoor survey
+10B_UNDERABRIDGE,Please describe the place you will stay tonight: ,Under a bridge,Count,This question was only included in the Outdoor survey
+10B_TRANSITSHELTER,Please describe the place you will stay tonight: ,Transit Shelter,Count,This question was only included in the Outdoor survey
+10B_COFFEESHOP,Please describe the place you will stay tonight: ,Coffee shop,Count,This question was only included in the Outdoor survey
+10B_GARAGE,Please describe the place you will stay tonight: ,Parking garage,Count,This question was only included in the Outdoor survey
+10B_VEHICLE,Please describe the place you will stay tonight: ,Car/van/truck/trailor,Count,This question was only included in the Outdoor survey
+10B_ABANDONEDBUILDING,Please describe the place you will stay tonight: ,Abandoned building,Count,This question was only included in the Outdoor survey
+10B_LANEWAYALLEY,Please describe the place you will stay tonight: ,Laneway/Alley,Count,This question was only included in the Outdoor survey
+10B_INTERNETCAFE,Please describe the place you will stay tonight: ,Internet cafe,Count,This question was only included in the Outdoor survey
+10B_WORKOFFICE,Please describe the place you will stay tonight: ,Work/office,Count,This question was only included in the Outdoor survey
+10B_BATHHOUSE,Please describe the place you will stay tonight: ,Bathhouse,Count,This question was only included in the Outdoor survey
+10B_GRATE,Please describe the place you will stay tonight: ,Grate,Count,This question was only included in the Outdoor survey
+10B_OTHER,Please describe the place you will stay tonight: ,Other,Count,This question was only included in the Outdoor survey
+10B_DONTKNOW,Please describe the place you will stay tonight: ,Don’t know,Count,This question was only included in the Outdoor survey
+10B_NA,Please describe the place you will stay tonight: ,Refused/No answer,Count,This question was only included in the Outdoor survey
+10B_TOTAL,Please describe the place you will stay tonight: ,Total Respondents,Count,This question was only included in the Outdoor survey
+11A_OUTREACH,Have you used any of the following services in the last 6 months?,Street outreach/Streets to Homes,Count,
+11A_DROP-INS,Have you used any of the following services in the last 6 months?,Drop-ins,Count,
+11A_HOUSINGHELP,Have you used any of the following services in the last 6 months?,Housing Help Centre,Count,
+11A_HEALTHCLINICS,Have you used any of the following services in the last 6 months?,Health Clinics,Count,
+11A_JOBTRAINING,Have you used any of the following services in the last 6 months?,Job training/Job supports,Count,
+11A_DETOX,Have you used any of the following services in the last 6 months?,Detox,Count,
+11A_OOTCMEALS,Have you used any of the following services in the last 6 months?,Out of the Cold meals,Count,
+11A_OOTCBEDS,Have you used any of the following services in the last 6 months?,Out of the Cold beds,Count,
+11A_SHELTERS,Have you used any of the following services in the last 6 months?,Shelters,Count,
+11A_129PETER,Have you used any of the following services in the last 6 months?,Assessment and Referral Centre (129 Peter Street),Count,
+11A_FOODBANK,Have you used any of the following services in the last 6 months?,Food bank or community kitchen,Count,
+11A_HOSPITAL,Have you used any of the following services in the last 6 months?,Hospital/ Emergency Room,Count,
+11A_ID,Have you used any of the following services in the last 6 months?,Services that help you get ID,Count,
+11A_HARMREDUCTION,Have you used any of the following services in the last 6 months?,Harm reduction supports,Count,
+11A_LEGALCLINIC,Have you used any of the following services in the last 6 months?,Legal Clinics,Count,
+11A_OTHER,Have you used any of the following services in the last 6 months?,Other,Count,
+11A_NONE,Have you used any of the following services in the last 6 months?,Used none of the above,Count,
+11A_NA,Have you used any of the following services in the last 6 months?,Refused/No answer,Count,
+11B_POLICEYES,Have you had contact with any of the following in the last 6 months? ,Police - Yes,Count,This question was NOT included in the Corrections survey
+11B_POLICENO,Have you had contact with any of the following in the last 6 months? ,Police - No,Count,This question was NOT included in the Corrections survey
+11B_POLICENA,Have you had contact with any of the following in the last 6 months? ,Police - Refused/No answer,Count,This question was NOT included in the Corrections survey
+11B_AMBULANCEYES,Have you had contact with any of the following in the last 6 months? ,Ambulance - Yes,Count,This question was NOT included in the Corrections survey
+11B_AMBULANCENO,Have you had contact with any of the following in the last 6 months? ,Ambulance - No,Count,This question was NOT included in the Corrections survey
+11B_AMBULANCENA,Have you had contact with any of the following in the last 6 months? ,Ambulance - Refused/No answer,Count,This question was NOT included in the Corrections survey
+11B_PAROLEYES,Have you had contact with any of the following in the last 6 months? ,Probation / Parole - Yes,Count,This question was NOT included in the Corrections survey
+11B_PAROLENO,Have you had contact with any of the following in the last 6 months? ,Probation / Parole - No,Count,This question was NOT included in the Corrections survey
+11B_PAROLENA,Have you had contact with any of the following in the last 6 months? ,Probation / Parole - Refused/No answer,Count,This question was NOT included in the Corrections survey
+11B_JAILYES,Have you had contact with any of the following in the last 6 months? ,Jail / Detention Centre - Yes,Count,This question was NOT included in the Corrections survey
+11B_JAILNO,Have you had contact with any of the following in the last 6 months? ,Jail / Detention Centre - No,Count,This question was NOT included in the Corrections survey
+11B_JAILNA,Have you had contact with any of the following in the last 6 months? ,Jail / Detention Centre - Refused/No answer,Count,This question was NOT included in the Corrections survey
+12A_MOREMONEY,Which of the following would help you find housing?,More money from OW/ODSP (Ontario Works/Ontario Disability Support Program),Count,
+12A_EMPLOYMENT,Which of the following would help you find housing?,Help finding employment or job training,Count,
+12A_SUBSIDY,Which of the following would help you find housing?,Subsidized housing or a housing allowance,Count,
+12A_AFFORDABLEPLACE,Which of the following would help you find housing?,Help finding an affordable place,Count,
+12A_SUPPORTS,Which of the following would help you find housing?,Help to keep housing once you have it (e.g. housing supports/housing worker),Count,
+12A_APPLICATIONS,Which of the following would help you find housing?,Help with housing applications,Count,
+12A_TRANSPORTATION,Which of the following would help you find housing?,Transportation to see apartments,Count,
+12A_ID,Which of the following would help you find housing?,"Help getting ID (e.g., a health card or birth certificate)",Count,
+12A_IMMIGRATION,Which of the following would help you find housing?,Help with immigration issues,Count,
+12A_HEALTH,Which of the following would help you find housing?,Help addressing your health needs,Count,
+12A_DETOX,Which of the following would help you find housing?,Help getting detox services,Count,
+12A_TREATMENT,Which of the following would help you find housing?,Help getting alcohol or drug treatment,Count,
+12A_MENTALHEALTH,Which of the following would help you find housing?,Mental health supports,Count,
+12A_HARMREDUCTION,Which of the following would help you find housing?,"Harm reduction supports (e.g. methadone, safer crack kit, needle exchange)",Count,
+12A_CULTURAL,Which of the following would help you find housing?,Cultural supports,Count,
+12A_OTHERLANGUAGE,Which of the following would help you find housing?,Services in a language other than English,Count,
+12A_OTHER,Which of the following would help you find housing?,Something else,Count,
+12A_NA,Which of the following would help you find housing?,Refused/No answer,Count,
+12A_RESPONSETOTAL,Which of the following would help you find housing?,Total Respondents,Count,
+12B_MOREMONEY,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",More money from OW/ODSP (Ontario Works/Ontario Disability Support Program),Count,
+12B_EMPLOYMENT,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Help finding employment or job training,Count,
+12B_SUBSIDY,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Subsidized housing or a housing allowance,Count,
+12B_AFFORDABLEPLACE,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Help finding an affordable place,Count,
+12B_SUPPORTS,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Help to keep housing once you have it (e.g. housing supports/housing worker),Count,
+12B_APPLICATIONS,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Help with housing applications,Count,
+12B_TRANSPORTATION,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Transportation to see apartments,Count,
+12B_ID,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?","Help getting ID (e.g., a health card or birth certificate)",Count,
+12B_IMMIGRATION,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Help with immigration issues,Count,
+12B_HEALTH,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Help addressing your health needs,Count,
+12B_DETOX,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Help getting detox services,Count,
+12B_TREATMENT,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Help getting alcohol or drug treatment,Count,
+12B_MENTALHEALTH,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Mental health supports,Count,
+12B_HARMREDUCTION,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?","Harm reduction supports (e.g. methadone, safer crack kit, needle exchange)",Count,
+12B_CULTURAL,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Cultural supports,Count,
+12B_OTHERLANGUAGE,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Services in a language other than English,Count,
+12B_OTHER,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Something else,Count,
+12B_NA,"Of the things you just listed, what do you think is the ONE most important thing that would help you get housing?",Refused/No answer,Count,
+13A_YES,Are you currently receiving ODSP (Ontario Disability Support Program)?,Yes,Count,
+13A_NO,Are you currently receiving ODSP (Ontario Disability Support Program)?,No,Count,
+13A_NA,Are you currently receiving ODSP (Ontario Disability Support Program)?,Refused/No answer,Count,
+13B_YES,Do you believe you are eligible for ODSP?,Yes,Count,
+13B_NO,Do you believe you are eligible for ODSP?,No,Count,
+13B_DONTKNOW,Do you believe you are eligible for ODSP?,Don’t know,Count,
+13B_NA,Do you believe you are eligible for ODSP?,Refused/No answer,Count,
+13C_YES,Have you ever applied for ODSP?,Yes,Count,
+13C_NO,Have you ever applied for ODSP?,No,Count,
+13C_INPROCESS,Have you ever applied for ODSP?,In process of applying,Count,
+13C_NA,Have you ever applied for ODSP?,Refused/No answer,Count,
+13D_FULLTIME,What sources of income do you have?,Full time formal employment,Count,
+13D_PARTTIME,What sources of income do you have?,Part-time/casual or seasonal employment,Count,
+13D_INFORMAL,What sources of income do you have?,Informal employment,Count,
+13D_FRIENDSFAMILY,What sources of income do you have?,Financial support from friends or family,Count,
+13D_PENSION,What sources of income do you have?,Pension or investment income,Count,
+13D_PANHANDLING,What sources of income do you have?,Panhandling,Count,
+13D_OW,What sources of income do you have?,"Ontario Works (Welfare, Basic Needs Allowance, Street Allowance)",Count,
+13D_EI,What sources of income do you have?,Employment Insurance,Count,
+13D_CPP,What sources of income do you have?,Canada Pension Plan,Count,
+13D_GIS,What sources of income do you have?,Guaranteed Income Supplement,Count,
+13D_OAS,What sources of income do you have?,Old Age Security,Count,
+13D_CCTB,What sources of income do you have?,Canada Child Tax Benefit,Count,"This income category was not included in the survey and was calculated based on self-declared responses under ""Other"""
+13D_OSAP,What sources of income do you have?,Ontario Student Assistance Program,Count,"This income category was not included in the survey and was calculated based on self-declared responses under ""Other"""
+13D_OTHER,What sources of income do you have?,Other,Count,"The counts for this income category exclude self-declared responses of ""Canada Child Tax Benefit"" and ""Ontario Student Assistance Program"" "
+13D_NOINCOME,What sources of income do you have?,No income,Count,
+13D_NA,What sources of income do you have?,Refused/No answer,Count,
+13D_RESPONSETOTAL,What sources of income do you have?,Total Respondents,Count,

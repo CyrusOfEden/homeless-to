@@ -1,0 +1,11 @@
+SNA RESPONSE CATEGORY,Brief descriptor of response category
+CORRECTIONS,Count or average of responses provided by respondents surveyed in correctional facilities
+FAMILY,Count or average of responses provided by respondents surveyed in family shelters
+HEALTH,Count or average of responses provided by respondents surveyed in health and treatment facilities
+MEN,Count or average of responses provided by respondents surveyed in men's shelters
+MIXED ADULT,Count or average of responses provided by respondents surveyed in mixed adult shelters
+OUTDOOR,Count or average of responses provided by respondents surveyed in outdoor locations
+VAW,Count or average of responses provided by respondents surveyed in Violence Against Women (VAW) shelters
+WOMEN,Count or average of responses provided by respondents surveyed in women's shelters
+YOUTH,Count or average of responses provided by respondents surveyed in youth shelters
+TOTAL,Count or average of total responses
