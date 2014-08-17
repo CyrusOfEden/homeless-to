@@ -23,10 +23,11 @@ a:hover {
   border-bottom-color: #aaa;
 }
 .page-title {
-  font-size: 2.068rem;
+  font-size: 2.618rem;
   margin: 0.368em 0 0.618em;
   line-height: 1.1;
-  font-weight: 800;
+  font-weight: 300;
+  font-style: italic;
 }
 .text-left { text-align: left; }
 .text-right { text-align: right; }
@@ -34,13 +35,13 @@ a:hover {
 .pull-right { float: right; }
 
 .questions-list {
-  list-style: arrow;
-  margin: 0 0 0 2.618rem;
+  margin-left: 2.618rem;
   padding: 0;
   font-size: 2.618rem;
+  font-style: italic;
 }
 .questions-list li {
-  padding: 0.238rem;
+  padding: 0.368em;
 }
 .questions-list li a {
   color: #333;
@@ -59,7 +60,7 @@ thead {
   border-bottom: 0.238rem solid #222;
 }
 thead th {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-style: italic;
   text-align: left;
   border-color: #ccc;
@@ -71,7 +72,6 @@ tbody td {
   cursor: pointer;
 }
 .sort-order {
-  /*font-style: normal;*/
   font-weight: 300;
 }
 
