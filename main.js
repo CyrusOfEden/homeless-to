@@ -1,5 +1,11 @@
 (function() {
 
+  _.mixin({
+    slug: function(string) {
+      return _.invoke(string.split(/[-_\s]/), 'toLowerCase').join('-');
+    }
+  });
+
   angular.module('HomelessTO', []).
     controller('DataCtrl', DataController).
     filter('titleize', function() {
@@ -14,9 +20,23 @@
     $scope._ = _;
     var self = this;
 
-    for (var prop in data) {
-      self[prop] = data[prop];
-    }
+    for (var prop in data) self[prop] = data[prop];
+
+    self.highlights = {};
+    _.each(self.responses, function(response) {
+      var questionSlug = _.slug(response.question);
+      self.highlights[questionSlug] = {};
+      _.each(response.responses, function(response) {
+        var responseSlug = _.slug(response.response.description);
+        self.highlights[questionSlug][responseSlug] = false;
+      });
+    });
+
+    self.highlight = function(question, response) {
+      var questionSlug = _.slug(question.question),
+          responseSlug = _.slug(response.response.description);
+      self.highlights[questionSlug][responseSlug] = !self.highlights[questionSlug][responseSlug];
+    };
 
     self.sort = {};
     self.order = function(prop) {
@@ -35,11 +55,5 @@
       self.title = (self.response ? self.response.question : "Toronto's Homeless");
     };
   }
-
-  $(document).ready(function() {
-    $('table').on('click', 'tr.response', function() {
-      $(this).toggleClass('highlight');
-    });
-  });
 
 })();

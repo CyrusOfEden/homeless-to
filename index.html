@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="main.css">
     <link rel="author" href="humans.txt">
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.18/angular.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
     <script src="data.js"></script>
@@ -78,9 +77,11 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="response in data.response.responses | orderBy:data.sort.property:data.sort.direction track by $index"
+          <tr ng-repeat="response in data.response.responses | orderBy:data.sort.property:data.sort.direction"
+              ng-class="{ highlight: data.highlights[_.slug(data.response.question)][_.slug(response.response.description)] }"
               class="response">
-            <td class="response-answer">
+            <td ng-click="data.highlight(data.response, response)"
+                class="response-answer">
               {{ response.response.description }}
             </td>
             <td ng-repeat="(field, value) in _.omit(response, 'response', 'total') | orderBy:field"
