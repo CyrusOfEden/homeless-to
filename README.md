@@ -1,7 +1,4 @@
-To clean up and export the JSON data:
+HomelessTO
+==========
 
-```bash
-ruby clean.rb
-```
-
-There you go! Find your data in `data.json`.
+To view the data, open `index.html` in your preferred modern web browser.
