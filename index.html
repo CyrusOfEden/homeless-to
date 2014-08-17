@@ -19,44 +19,44 @@
     <script src="main.js"></script>
   </head>
   <body ng-cloak>
-    <header>
-      <span class="actions pull-right" ng-show="data.selection != null">
-        <a ng-click="data.select(null)">
-          &#8592; All Data
-        </a>
-        &nbsp;
-        <a ng-click="data.select(data.selection - 1)"
-           ng-hide="data.selection == 0">
-          &#8593; Previous
-        </a>
-        &nbsp;
-        <a ng-click="data.select(data.selection + 1)"
-           ng-hide="data.selection == data.responses.length - 1">
-          &#8595; Next
-        </a>
-      </span>
-      <span class="actions pull-right" ng-show="data.sort.property != null">
-        <a ng-click="data.order(null)">
-          Reset Order
-        </a>
-        <span ng-show="data.selection != null">
-          &nbsp;/&nbsp;
-        </span>
-      </span>
+    <header ng-show="data.selection != null">
+      <div class="clearfix">
+        <div class="actions pull-left text-left">
+          <a ng-click="data.select(null)">
+            &#8592; All Data
+          </a>
+          &nbsp;
+          <a ng-click="data.select(data.selection - 1)"
+             ng-hide="data.selection == 0">
+            &#8593; Previous
+          </a>
+          &nbsp;
+          <a ng-click="data.select(data.selection + 1)"
+             ng-hide="data.selection == data.responses.length - 1">
+            &#8595; Next
+          </a>
+        </div>
+        <div class="actions pull-right text-right"
+             ng-show="data.sort.property">
+          <a ng-click="data.order(null)">
+            Reset Order
+          </a>
+        </div>
+      </div>
       <h1 class="page-title">
         {{ data.title }}
       </h1>
     </header>
     <main>
 
-      <ul ng-hide="data.selection != null"
+      <ol ng-hide="data.selection != null"
           class="questions-list">
         <li ng-repeat="response in data.responses track by $index">
           <a ng-click="data.select($index)">
             {{ response.question }}
           </a>
         </li>
-      </ul>
+      </ol>
 
       <table ng-show="data.selection != null">
         <thead>
