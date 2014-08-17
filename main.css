@@ -53,7 +53,7 @@ table {
 }
 table td, table th {
   padding: 0.238em 0.468em;
-  border: 0.1em solid #eee;
+  border: 0.1em solid #ddd;
 }
 
 thead {
@@ -81,10 +81,23 @@ tbody {
 }
 
 tbody tr {
-  border-bottom: 0.1rem solid #eee;
+  color: #666;
+  font-weight: 500;
+  border-bottom: 0.1rem solid #ddd;
 }
 tbody tr:nth-child(odd) {
   background: #eee;
+}
+tbody tr.highlight {
+  color: #efefef;
+  background: #444;
+  border-bottom-color: #222;
+}
+tbody tr.highlight:nth-child(odd) {
+  background: #333;
+}
+tbody tr.highlight td {
+  border-color: #222;
 }
 
 .response-question, .response-answer {

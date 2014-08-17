@@ -36,5 +36,10 @@
     };
   }
 
+  $(document).ready(function() {
+    $('table').on('click', 'tr.response', function() {
+      $(this).toggleClass('highlight');
+    });
+  });
 
 })();

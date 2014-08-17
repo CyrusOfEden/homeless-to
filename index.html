@@ -8,11 +8,12 @@
 
     <title>{{ data.title }}</title>
 
-    <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Lato:300,400,800,300i,400i,800i">
+    <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Lato:300,400,500,800,300i,400i,500i,800i">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
     <link rel="stylesheet" href="main.css">
     <link rel="author" href="humans.txt">
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.18/angular.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
     <script src="data.js"></script>
@@ -22,7 +23,8 @@
     <header ng-show="data.selection != null">
       <div class="clearfix">
         <div class="actions pull-left text-left">
-          <a ng-click="data.select(null)">
+          <a href="#"
+             ng-click="data.select(null)">
             &#8592; All Data
           </a>
           &nbsp;
@@ -52,8 +54,9 @@
       <ol ng-hide="data.selection != null"
           class="questions-list">
         <li ng-repeat="response in data.responses track by $index">
-          <a ng-click="data.select($index)">
-            {{ response.question }}
+          <a ng-click="data.select($index)"
+             href="#">
+            {{ ::response.question }}
           </a>
         </li>
       </ol>
@@ -75,7 +78,8 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="response in data.response.responses | orderBy:data.sort.property:data.sort.direction track by $index">
+          <tr ng-repeat="response in data.response.responses | orderBy:data.sort.property:data.sort.direction track by $index"
+              class="response">
             <td class="response-answer">
               {{ response.response.description }}
             </td>
