@@ -1,0 +1,96 @@
+html {
+  cursor: default;
+  color: #222;
+  font: 300 16px/1.6 Lato, 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 3rem auto 8rem;
+  width: 90%;
+  max-width: 96rem;
+}
+
+a {
+  cursor: pointer;
+  color: #666;
+  text-decoration: none;
+  border-bottom: 0.168em solid #eee;
+}
+a:hover {
+  border-bottom-color: #aaa;
+}
+.page-title {
+  font-size: 2.068rem;
+  line-height: 1.1;
+  font-weight: 800;
+}
+.pull-right {
+  float: right;
+}
+
+.questions-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.questions-list li {
+  padding: 0.238rem;
+}
+.questions-list li a {
+  color: #333;
+}
+
+table {
+  width: 100%;
+  overflow: auto;
+}
+table td, table th {
+  padding: 0.238em 0.468em;
+  border: 0.1em solid #eee;
+}
+
+thead {
+  border-bottom: 0.238rem solid #222;
+}
+thead th {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: left;
+  border-color: #ccc;
+}
+.sorter {
+  cursor: pointer;
+}
+.sort-order {
+  /*font-style: normal;*/
+  font-weight: 300;
+}
+
+tbody {
+  font-size: 0.95rem;
+  border-bottom: 0.238rem solid #ccc;
+}
+
+tbody tr {
+  border-bottom: 0.1rem solid #eee;
+}
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+.response-question, .response-answer {
+  width: 20%;
+}
+.response-question {
+  cursor: pointer;
+  background: white;
+}
+.response-question:hover {
+  background: #efefef;
+}
+.response-answer {
+  font-size: 0.85em;
+}
+.rigid {
+  width: 6.66%;
+}
